@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-from flask_openapi3 import Info, Tag
+from flask_openapi3 import Info
 from flask_openapi3 import OpenAPI
 
 from model import LogReg, TreeMod
