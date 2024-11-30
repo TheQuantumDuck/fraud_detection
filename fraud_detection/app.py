@@ -34,7 +34,7 @@ def get_book(query: RiskQuery):
                 "message": f"Error: {vals_to_check_names[i]} has an incorrect value of {val}"
             }
     logreg_model = LogReg.load("logreg")
-    tree_model = LogReg.load("treemod")
+    tree_model = TreeMod.load("treemod")
     args = [
         query.country_of_origin,
         query.is_nigeria,
